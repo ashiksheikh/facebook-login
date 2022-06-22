@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(252, 249, 249);
+}
+.containar{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(175, 36, 36);
+}
+.fbody{
+    margin: 100px auto;
+    width: 50%;
+    background-color: green;
+    padding: 25px;
+}
+.fhead{
+    text-align: center;
+    border-bottom:  2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.label{
+    font-size: 20px;
+
+}
+.inp{
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+}
+.fn{
+    width: 34%;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 13px;
+    color: black;
+    font-style: italic;
+}
+.inp:focus{
+    /*border: none;*/
+    outline: 5px red;
+}
+input[type=date]{
+    width: 25%;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+select{
+    color: black;
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+}
+option{
+    color: black;
+    font-size: 15px;
+}
+.fs{
+    margin: 7px 15px 8px;
+}
+input[type=submit]{
+    width: 60%;
+    font-size: 35px;
+    border-radius: 15px;
+    color: rgb(156, 23, 101);
+    display: block;
+    margin:25px auto;
+}
